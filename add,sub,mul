@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b;
+    int sum,sub,mul;
+    printf("enter your number:");
+    scanf("%d %d" ,&a,&b);
+    sum=a+b;
+    sub=a-b;
+    mul=a*b;
+    printf("sum of the no is%d\n",sum);
+    printf("sub of the no is %d\n",sub);
+    printf("mul of the no is %d\n",mul);
+    getch();
+}
+    
