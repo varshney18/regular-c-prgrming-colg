@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    char c;
+ printf("hello programming\n");   
+    printf("enter your character:>\n");
+    scanf("%c",&c);
+    printf("\n\n Ascii value of %c=%d",c,c);
+    printf("\n \n /t/t/t Coding is Fun!\n\n\n");
+    return 0;
+}
